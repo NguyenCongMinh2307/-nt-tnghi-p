@@ -260,3 +260,37 @@ ul.main-nav {
   gap: 27px;
 }
 }
+
+
+/* Responsive Styles */
+@media (max-width: 390px) {
+  .logo-xe {
+    max-width: 155px; /* Giảm kích thước logo */
+  }
+
+  ul.main-nav a {
+    padding: 5px 10px; /* Giảm padding cho các liên kết trong menu */
+    font-size: 7px; /* Giảm kích thước chữ để dễ đọc hơn */
+  }
+
+  ul.main-nav {
+    width: 100%; /* Làm cho menu rộng hơn, chiếm toàn bộ chiều ngang */
+    padding-left: 10px; /* Giảm khoảng cách bên trái để nội dung vừa với màn hình */
+  }
+
+  #dynamic-content {
+    left: 0;
+    top: 150px; /* Điều chỉnh vị trí động của nội dung */
+  }
+
+  .image-sketch-1, .image-sketch-2 {
+    gap: 15px; /* Giảm khoảng cách giữa các hình ảnh */
+  }
+  .multitasking a {
+    font-size: 0.6rem;
+    padding: 7px 15px;
+}
+ul.main-nav li {
+  margin: 1px 0;
+}
+}

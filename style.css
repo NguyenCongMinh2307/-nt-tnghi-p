@@ -1768,3 +1768,137 @@ ul.main-nav a {
   font-size: 12px;
 }
 }
+
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 390px) {
+  header {
+    height: 50px; /* Chiều cao của header */
+  }
+
+  /* Logo styling */
+  img.logoiuh {
+    height: 30px; /* Giảm kích thước logo */
+    margin-left: 20px; /* Giảm khoảng cách bên trái logo */
+  }
+  
+  /* Heading styling */
+  header h1 {
+    color: rgb(250, 21, 21);
+    font-size: 0.7rem; /* Giảm kích thước chữ */
+    margin-right: 50px; /* Giảm khoảng cách bên phải */
+  }
+
+  .heading-main-text {
+    font-size: 2.5rem; /* Giảm kích thước font chữ */
+    margin-top: 50px; /* Giảm khoảng cách trên */
+    text-align: center;
+  }
+
+  .row {
+    margin-left: 20px; /* Giảm khoảng cách bên trái */
+    margin-top: -40px; /* Giảm khoảng cách trên */
+  }
+
+  .side-image {
+    width: 90%; /* Giảm kích thước hình ảnh */
+    margin-top: 20px; /* Giảm khoảng cách trên */
+    margin-left: 0; /* Đảm bảo hình ảnh không bị lệch */
+  }
+
+  .btnn {
+    display: none; /* Hiển thị nút */
+  }
+
+  main.shift {
+    margin-left: 20px; /* Giảm margin cho phù hợp */
+  }
+
+  ul.main-nav a {
+    align-items: center;
+    padding: 8px 15px; /* Giảm padding */
+  }
+
+  .principle-sub-items li a {
+    font-size: 8px; /* Giảm kích thước chữ */
+  }
+
+  .intro-sub-items li a {
+    font-size: 10px; /* Giảm kích thước chữ */
+  }
+
+  .LOW-container {
+    width: 100%; /* Làm cho container rộng hơn */
+    margin-top: 30px; /* Giảm khoảng cách trên */
+    margin-left: 218px;
+  }
+
+  .button-container, .button-containerr {
+    display: none; /* Hiển thị các nút */
+  }
+
+  .LHT-image img {
+    width: 100%;
+    margin-top: 0;
+    object-fit: cover;
+  }
+
+  .tablee-container {
+    width: 62%; /* Mở rộng container */
+    margin-top: 20px;
+    margin-bottom: 1px;
+  }
+
+  .LHT-container {
+    width: 69%;
+    margin-left: 276px;
+    margin-top: -37px;
+  }
+
+  .QDN-container {
+    width: 100%; /* Làm container rộng hơn */
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-left: 218px;
+        margin-top: -44px;
+  }
+
+  .QDN-image img {
+    width: 100%;
+    margin-top: 0px;
+    object-fit: cover;
+  }
+
+  .QDNn-container {
+    width: 100%; /* Làm container rộng hơn */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .info-cell::after {
+    bottom: 100%;
+    left: 49%;
+    padding: 8px;
+    border-radius: 4px;
+    width: 250px; /* Giảm kích thước hộp thoại */
+    line-height: 1.4;
+    max-height: 7rem; /* Giảm chiều cao tối đa */
+    font-size: 10px; /* Giảm kích thước font chữ */
+  }
+  .menu-toggle {
+    font-size: 32px;
+    cursor: pointer;
+    margin-left: -15px;
+    margin-top: 32px;
+    z-index: 1000;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+}

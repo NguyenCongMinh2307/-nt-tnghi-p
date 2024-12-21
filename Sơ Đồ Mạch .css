@@ -82,3 +82,21 @@ body {
         }
 
 
+        
+
+        @media (max-width: 390px) {
+            .image1 {
+                width: 100vw;
+            }
+            .multitasking {
+                position: absolute;
+                bottom: 150px;
+                right: 25px;
+                padding: 10px;
+                border-radius: 5px;
+                z-index: 10;
+            }
+        }
+
+
+
