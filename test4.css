@@ -75,7 +75,7 @@ h1{
     body {
         font-size: 10px;
         position: relative;
-        min-height: 90vh;
+        min-height: 120vh;
         overflow: hidden;
         margin-top: -39px;
     }
