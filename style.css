@@ -1774,9 +1774,8 @@ ul.main-nav a {
 
 
 
-
 /* Responsive Styles */
-@media (max-width: 390px) {
+@media (max-width: 430px) and (min-width: 390px){
   header {
     height: 50px; /* Chiều cao của header */
   }

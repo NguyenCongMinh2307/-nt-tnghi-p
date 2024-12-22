@@ -263,7 +263,7 @@ ul.main-nav {
 
 
 /* Responsive Styles */
-@media (max-width: 390px) {
+@media (max-width: 430px) and (min-width: 390px){
   .logo-xe {
     max-width: 155px; /* Giảm kích thước logo */
   }

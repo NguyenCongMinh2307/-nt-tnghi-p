@@ -84,7 +84,7 @@ body {
 
         
 
-        @media (max-width: 390px) {
+        @media (max-width: 430px) and (min-width: 390px){
             .image1 {
                 width: 100vw;
             }
