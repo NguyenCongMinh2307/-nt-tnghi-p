@@ -72,7 +72,6 @@ h1{
 @media (max-width: 430px) and (min-width: 390px){
     body {
         font-size: 12px;
-        position: relative;
         min-height: 120vh;
         overflow: hidden;
         margin-top: -74px;
@@ -81,7 +80,6 @@ h1{
     /* Thêm lớp mờ cho ảnh nền bằng ::after */
     body::after {
         content: '';
-        position: absolute;
         top: 0;
         left: 0;
         right: 0;
