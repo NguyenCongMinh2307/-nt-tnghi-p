@@ -75,7 +75,7 @@ h1{
     body {
         font-size: 10px;
         min-height: 120vh;
-        overflow: hidden;
+        overflow: auto;
         margin-top: -74px;
     }
     
