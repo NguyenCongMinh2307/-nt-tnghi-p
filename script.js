@@ -436,18 +436,28 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
         ,
-        'QUẠT DÀN NÓNG': `
+        'QUẠT DÀN NÓNG TỐC ĐỘ THẤP': `
         <div class="QDN-container">
         <div class="QDNn-container">
                 <p class="QDNn-container1">
-                1.	Tốc độ thấp: <br>
+                Tốc độ thấp: <br>
                         Dòng đi từ: IG ⇒ Khoá điện ⇒ Cầu chì 10A ECU-IG ⇒ Cuộn dây FAN NO.1 Relay ⇒ 1 (E7). ⇒ FAN NO.1 Relay đóng. <br>
                         Cho dòng từ: Accu ⇒ Cầu chì 30A RDI ⇒ Tiếp điểm FAN NO.1 Relay ⇒ A7 ⇒ Tiếp điểm FAN NO.2 Relay ⇒ A13 ⇒ Mass. ⇒ Quạt dàn nóng quay tốc độ thấp.
 
                 </p>
-
+            </div>
+            <div class="QDN-image1">
+                <img src="image/Toc do thap.png" alt="Chế độ LOW" id="fanImage">
+            </div>
+            
+        </div>
+        `
+        ,
+        'QUẠT DÀN NÓNG TỐC ĐỘ CAO': `
+        <div class="QDN-container">
+        <div class="QDNn-container">
                 <p class="QDNn-container2">
-                2.	Tốc độ cao: <br>
+                Tốc độ cao: <br>
                         Khi có tín hiệu từ công tắc áp suất trung bình, nhiệt độ dàn nóng cao hoặc nhiệt độ nước làm mát cao: <br>
                         Dòng đi từ: IG ⇒ Khoá điện ⇒ Cầu chì 10A ECU-IG ⇒ Cuộn dây FAN NO.2 Relay ⇒ Chân tín hiệu [gồm: 2 (E7); 2 (A3); 22 (ECM)] ⇒ Mass. ⇒ FAN NO.2 Relay đóng. <br>
                         Cho dòng từ: Accu ⇒ Cầu chì 30A RDI ⇒ Tiếp điểm FAN NO.1 Relay ⇒ A7 ⇒ Tiếp điểm FAN NO.2 Relay ⇒ Mass. ⇒ Quạt dàn nóng quay tốc độ cao.
@@ -455,8 +465,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 </p>
             </div>
-            <div class="QDN-image">
-                <img src="image/Toc do thap.png" alt="Chế độ LOW" id="fanImage">
+            <div class="QDN-image2">
+                <img src="image/Toc do cao (1).png" alt="Chế độ LOW" id="fanImage">
             </div>
             
         </div>

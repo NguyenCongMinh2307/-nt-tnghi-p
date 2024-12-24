@@ -1372,12 +1372,18 @@ main.shift {
   margin: 0 auto; /* Căn giữa ngang */
   overflow: hidden; /* Ẩn phần dư nếu cần */
 }
-.QDN-image img{
+.QDN-image1 img{
 float: right;
 width: 63%;
-margin-top: -539px;
+margin-top: -258px;
 object-fit: cover; /* Giữ hình ảnh luôn vừa khung */
 }
+.QDN-image2 img{
+  float: right;
+  width: 63%;
+  margin-top: -338px;
+  object-fit: cover; /* Giữ hình ảnh luôn vừa khung */
+  }
 .QDNn-container{
   width: 30%;
   margin-top: 30px;
@@ -1875,7 +1881,7 @@ ul.main-nav a {
   }
 
   .QDNn-container {
-    width: 100%; /* Làm container rộng hơn */
+    width: 60%; /* Làm container rộng hơn */
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -1898,6 +1904,16 @@ ul.main-nav a {
     z-index: 1000;
     padding-left: 15px;
     border-radius: 5px;
+}
+.QDN-image1 img {
+  float: none;
+  width: 63%;
+  margin-top: -9px;
+}
+.QDN-image2 img {
+  float: none;
+  width: 63%;
+  margin-top: -9px;
 }
 
 }
